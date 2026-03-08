@@ -49,7 +49,8 @@ After the first deploy:
 
 1. Add `locallistassist.app` as a custom domain in Cloudflare Pages.
 2. Add `www.locallistassist.app` if you want it redirected.
-3. Keep the `_redirects` file so `www` redirects to the apex domain.
+3. Configure the `www` to apex redirect in Cloudflare, not in `_redirects`.
+4. Keep the `_redirects` file for path-only redirects such as trailing-slash normalization.
 
 ## Security checklist
 
@@ -67,4 +68,3 @@ After the first deploy:
 - `https://locallistassist.app/products/home-assistant/`
 - `https://locallistassist.app/robots.txt`
 - `https://locallistassist.app/sitemap.xml`
-

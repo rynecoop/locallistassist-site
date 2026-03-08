@@ -42,7 +42,8 @@ Other static hosts will work, but Cloudflare Pages is the best balance for this 
 ## Security notes
 
 - `_headers` sets strict security headers for a static site
-- `_redirects` forces `www` to the apex domain
+- `_redirects` handles only path redirects that Cloudflare accepts during static deploys
+- `www` to apex redirect should be configured in Cloudflare domain settings
 - the site uses no third-party JavaScript
 - fonts are local/system fonts to avoid unnecessary external requests
 
