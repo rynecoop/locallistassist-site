@@ -250,6 +250,21 @@ h1 {
   color: var(--muted);
 }
 
+.media-frame {
+  margin-top: 16px;
+  border-radius: 24px;
+  overflow: hidden;
+  border: 1px solid rgba(138, 224, 194, 0.18);
+  background: rgba(8, 17, 31, 0.8);
+  box-shadow: var(--shadow);
+}
+
+.product-video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .badge {
   padding: 7px 12px;
   border-radius: 999px;
