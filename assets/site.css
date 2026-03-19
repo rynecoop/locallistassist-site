@@ -6,7 +6,9 @@
   --line: rgba(133, 179, 220, 0.18);
   --text: #eef4fb;
   --muted: #9db0c2;
-  --blue: #2c78ba;
+  --green: #198f67;
+  --green-strong: #127553;
+  --blue: #4ea5ff;
   --teal: #1f8a70;
   --gold: #e2a21f;
   --rose: #8f3f71;
@@ -62,8 +64,10 @@ img { max-width: 100%; display: block; }
 }
 
 .brand-mark {
-  width: 42px;
-  height: 42px;
+  width: 46px;
+  height: 46px;
+  border-radius: 14px;
+  box-shadow: 0 10px 28px rgba(25, 143, 103, 0.22);
 }
 
 .nav-links {
@@ -173,7 +177,7 @@ h1 {
 }
 
 .button {
-  background: linear-gradient(135deg, var(--blue), #4a95d6);
+  background: linear-gradient(135deg, var(--green-strong), var(--green));
   color: #fff;
 }
 
@@ -254,7 +258,7 @@ h1 {
 }
 
 .badge.blue { background: rgba(44, 120, 186, 0.18); color: #95c9ff; }
-.badge.teal { background: rgba(31, 138, 112, 0.18); color: #8df2d8; }
+.badge.teal { background: rgba(25, 143, 103, 0.18); color: #8df2d8; }
 .badge.gold { background: rgba(226, 162, 31, 0.18); color: #ffd37d; }
 .badge.rose { background: rgba(143, 63, 113, 0.18); color: #f3b2dc; }
 
