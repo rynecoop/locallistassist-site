@@ -262,11 +262,11 @@ h1 {
 }
 
 .media-frame-desktop {
-  max-width: 620px;
+  max-width: 420px;
 }
 
 .media-frame-phone {
-  max-width: 360px;
+  max-width: 220px;
 }
 
 .product-video {
