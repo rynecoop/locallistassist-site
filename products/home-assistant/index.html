@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home Assistant Version | Local List Assist</title>
-  <meta name="description" content="Free Home Assistant version of Local List Assist for local dashboards, category-aware lists, and fast updates across clients.">
+  <meta name="description" content="Free Home Assistant version of Local List Assist: a phone-first list app with a bottom tab bar, Shopping Mode, Quick Add autocomplete, saved meals with cook-mode directions, a dated meal planner, and smarter automatic categories — all local-first inside HA.">
   <link rel="stylesheet" href="/assets/site.css">
   <link rel="icon" href="/assets/logo-mark-v2.svg" type="image/svg+xml">
 </head>
@@ -28,21 +28,72 @@
     <div class="site-shell">
       <article class="policy-card">
         <div class="kicker">Free Home Assistant version</div>
-        <h1>Use Local List Assist inside Home Assistant.</h1>
+        <h1>Your whole grocery and meal-planning flow, inside Home Assistant.</h1>
         <p>
           This version is for people who already run Home Assistant and want local-first list management directly inside
-          HA. It keeps the product idea intact while fitting the Home Assistant workflow instead of forcing a separate
-          cloud service or subscription.
+          HA. It has grown from a simple categorized list into a phone-first, one-stop hub: plan the week's meals, pull up
+          a recipe's steps while you cook, and build the shopping list from it — all without leaving Home Assistant and
+          without a separate cloud service or subscription.
         </p>
 
         <h2>What it is good at</h2>
         <ul>
-          <li>Native Home Assistant panel experience</li>
-          <li>Smart grocery routing and category learning</li>
-          <li>Multiple internal lists</li>
-          <li>Category editing and ordering</li>
-          <li>Fast local refresh across open clients</li>
-          <li>A free option for existing HA users</li>
+          <li>Native, phone-first Home Assistant panel with a bottom tab bar — <strong>List</strong>, <strong>Shop</strong>, <strong>Meals</strong>, and <strong>Plan</strong> are each one tap away</li>
+          <li>Shopping Mode: a focused, big-tap-target screen in your store's aisle order for when you're actually shopping</li>
+          <li>Quick Add autocomplete that suggests items you've added before, each with its category already resolved</li>
+          <li>Saved meals with ingredients <em>and</em> numbered directions you can check off in cook mode</li>
+          <li>A dated meal planner that builds a combined, de-duplicated shopping list for a day or a whole week</li>
+          <li>Smarter automatic categories with a checkbox list to turn sections on or off per list</li>
+          <li>Multiple local lists with color theming and your own per-list aisle order</li>
+          <li>Backup &amp; restore to a single local JSON file, and fast local refresh across open clients</li>
+        </ul>
+
+        <h2>What's new</h2>
+        <p>
+          Recent releases turned the panel into a full meal-planning and shopping hub. Highlights:
+        </p>
+        <div class="grid-3">
+          <article class="section-card">
+            <div class="kicker">Navigation</div>
+            <h3>Phone-first bottom tab bar</h3>
+            <p>List, Shop, Meals, and Plan sit in a bottom tab bar, so every main screen is one tap away instead of buried in a menu — built around how households actually use it on a phone.</p>
+          </article>
+          <article class="section-card">
+            <div class="kicker">At the store</div>
+            <h3>Shopping Mode</h3>
+            <p>A stripped-down screen that shows only the unchecked items, grouped in your list's category (store) order, with large tap targets, a progress bar, and a quick add for anything you forgot.</p>
+          </article>
+          <article class="section-card">
+            <div class="kicker">Faster entry</div>
+            <h3>Quick Add autocomplete</h3>
+            <p>As you type, a dropdown suggests items you've added before — each with its category already worked out — so a known item goes on the list in one tap. It also cuts down near-duplicates like "milk" vs "Milk".</p>
+          </article>
+          <article class="section-card">
+            <div class="kicker">Meals</div>
+            <h3>Recipes with cook mode</h3>
+            <p>Define a meal once — ingredients plus numbered directions. Add it with a pre-checked ingredient checklist, then switch to the Directions tab and tap each step off as you cook.</p>
+          </article>
+          <article class="section-card">
+            <div class="kicker">Planning</div>
+            <h3>Dated meal planner</h3>
+            <p>Assign saved meals to real dates, page between weeks, and add a single day's or the whole week's ingredients at once — combined and de-duplicated, shown in a confirm checklist. Nothing ever auto-clears.</p>
+          </article>
+          <article class="section-card">
+            <div class="kicker">Categories</div>
+            <h3>Smarter, customizable</h3>
+            <p>An expanded built-in knowledge of common items means far fewer things land in "Other," and a checkbox list lets each person turn categories on or off — because not everyone shops the same way.</p>
+          </article>
+        </div>
+
+        <h2>Everything else it does</h2>
+        <ul>
+          <li>Frequent quick-add chips for the staples you add most often — no typing</li>
+          <li>Review-and-learn: teach the right category once for an item and it sticks</li>
+          <li>Duplicate decision flow (Add anyway or Skip) and a completed section with restore &amp; clear</li>
+          <li>Drag-and-drop reordering of items and lists, and in-place category editing</li>
+          <li>Voice-friendly adds where Home Assistant provides user context, with per-user attribution</li>
+          <li>Follows your Home Assistant theme — light, dark, or custom</li>
+          <li>Installs through HACS; automatic provisioning and repair of the helpers and to-do lists it needs</li>
         </ul>
 
         <h2>See it in action</h2>
