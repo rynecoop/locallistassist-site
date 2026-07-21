@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Home Assistant Version | Local List Assist</title>
-  <meta name="description" content="Free Home Assistant version of Local List Assist: a phone-first list app with a bottom tab bar, Shopping Mode, Quick Add autocomplete, saved meals with cook-mode directions, a dated meal planner, and smarter automatic categories — all local-first inside HA.">
+  <meta name="description" content="Free Home Assistant version of Local List Assist: a phone-first list app with a bottom tab bar, Shopping Mode, Quick Add autocomplete, saved meals with cook-mode directions, recipe-link import, per-person favorites, a dated meal planner, and smarter automatic categories — all local-first inside HA.">
   <link rel="stylesheet" href="/assets/site.css">
   <link rel="icon" href="/assets/logo-mark-v2.svg" type="image/svg+xml">
 </head>
@@ -42,6 +42,8 @@
           <li>Shopping Mode: a focused, big-tap-target screen in your store's aisle order for when you're actually shopping</li>
           <li>Quick Add autocomplete that suggests items you've added before, each with its category already resolved</li>
           <li>Saved meals with ingredients <em>and</em> numbered directions you can check off in cook mode</li>
+          <li>Import a meal straight from a recipe link — your HA reads the page and fills in the name, ingredients, and directions for you to review</li>
+          <li>Per-person meal favorites — each Home Assistant user stars their own go-to meals</li>
           <li>A dated meal planner that builds a combined, de-duplicated shopping list for a day or a whole week</li>
           <li>Smarter automatic categories with a checkbox list to turn sections on or off per list</li>
           <li>Multiple local lists with color theming and your own per-list aisle order</li>
@@ -53,6 +55,16 @@
           Recent releases turned the panel into a full meal-planning and shopping hub. Highlights:
         </p>
         <div class="grid-3">
+          <article class="section-card">
+            <div class="kicker">Meals</div>
+            <h3>Import from a recipe link</h3>
+            <p>Paste a recipe URL into a new meal and tap Import — your Home Assistant reads the page's recipe data and fills in the name, ingredients, and directions for you to review and tweak before saving. It stays local: your HA fetches the page itself, nothing is sent to a cloud service.</p>
+          </article>
+          <article class="section-card">
+            <div class="kicker">Meals</div>
+            <h3>Favorites, per person</h3>
+            <p>Each Home Assistant user can star the meals they love. Favorites are personal to whoever's signed in and float to the top of the Meals list, so everyone in the house finds their go-to meals fast.</p>
+          </article>
           <article class="section-card">
             <div class="kicker">Navigation</div>
             <h3>Phone-first bottom tab bar</h3>
